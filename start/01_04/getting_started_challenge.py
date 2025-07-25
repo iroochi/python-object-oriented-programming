@@ -13,8 +13,13 @@ class Card:
 
 
 if __name__ == "__main__":
+    # instance of the class
     card1 = Card("Ace", "Spades")
     card2 = Card("Queen", "Hearts")
+    card3 = Card("Jack", "Diamonds")
+    card4 = Card("King", "Clubs")
 
     print(card1)
     print(card2)
+    print(card3)
+    print(card4)
